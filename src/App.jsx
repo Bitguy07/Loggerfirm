@@ -4,7 +4,7 @@ import AuthWrapper from './Authentication/AuthWrapper';
 const App = () => {
   return (
     <div className='h-screen w-screen flex flex-col '>
-        <BrowserRouter> 
+        <BrowserRouter basename="/Loggerfirm"> 
             <AuthWrapper />
         </BrowserRouter>
     </div>
