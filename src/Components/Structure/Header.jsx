@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='w-full h-20 bg-red-400 flex items-center justify-center'>
+    <div className='w-full h-20 bg-white flex items-center justify-center'>
         <div className='text-3xl font-serif text-blue-500 font-extrabold'>
             Full Stack test
         </div>
